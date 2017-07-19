@@ -1,9 +1,8 @@
-VectorSynth for Raspberry Pi 3
-#############
+# VectorSynth for Raspberry Pi 3
 
 This is a student project for `Klangsynthese und -verarbeitung: Von der Theorie zur Programmierung <http://www.ak.tu-berlin.de/menue/lehre/wintersemester_201617/klangsynthese_und_verarbeitung_von_der_theorie_zur_programmierung/">`_.
 
-Libraries
+# Libraries
 _________
 The libraries needed for this to work properly are part of the `Raspberry Pi 3`_ (RPi3) Image:
 
@@ -14,19 +13,19 @@ The libraries needed for this to work properly are part of the `Raspberry Pi 3`_
 * `yaml-cpp (website)`_ as yaml-cpp_ (ALARM_) 
 * `boost (website)`_ as boost_ (ALARM_) 
 
-Images
+# Images
 ______
 Images for the RPi3 can be found `here`_.
 Please follow the `RPi3 installation instructions`_ for ALARM_ as a reference on how to install the latest image on a microSD card.
 
-Hardware
+# Hardware
 ________
 We use specific hardware, that has been tested for low-latency audio with `JACK`_:
 
 * RaspberryPi3
 * `renkforce USB sound card`_
 
-Sources
+# Sources
 _______
 All sources can be found in the src/ directory.
 
